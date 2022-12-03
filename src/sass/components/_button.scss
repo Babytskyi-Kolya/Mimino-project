@@ -1,7 +1,7 @@
 .button {
-	min-width: 238px;
-	height: 48px;
-	padding: 15px 24px 13px 24px;
+	width: 100%;
+	
+	padding: 14px 24px;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -9,8 +9,18 @@
 	text-align: center;
 	letter-spacing: 0.02em;
 	cursor: pointer;
-	border: 2px solid #fff;
+	border: 2px solid $border-white-button-color;
 	border-radius: 25px;
 	color: $yellow-accent-color;
-	background-color: $homepage-background-button-color;
+	transition: background-color $transition-duration $timing-function;
+
+	@include mobile{
+		max-width: 236px;
+	   
+	}
+
+	&:hover,
+	&:focus {
+		background-color: $hover-white-background-button-color;
+	}
 }
