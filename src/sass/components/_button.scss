@@ -1,7 +1,12 @@
 .button {
+<<<<<<< Updated upstream
 	width: 100%;
 	
 	padding: 14px 24px;
+=======
+	max-width: 236px;
+	padding: 14px 24px 14px 24px;
+>>>>>>> Stashed changes
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
@@ -14,11 +19,14 @@
 	color: $yellow-accent-color;
 	transition: background-color $transition-duration $timing-function;
 
+<<<<<<< Updated upstream
 	@include mobile{
 		max-width: 236px;
 	   
 	}
 
+=======
+>>>>>>> Stashed changes
 	&:hover,
 	&:focus {
 		background-color: $hover-white-background-button-color;
