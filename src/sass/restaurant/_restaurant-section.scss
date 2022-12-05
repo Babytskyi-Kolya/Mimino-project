@@ -18,6 +18,7 @@
     @media screen and (min-width: 1280px) {
         padding-bottom: 50px;
         max-width: 1280px;
+        background-image: $liner-gradient-main-desktop;
     }
 
     &__text {
@@ -32,7 +33,6 @@
         @media screen and (min-width: 1024px) {
             margin-bottom: 4px;
             font-size: 32px;
-            line-height: 1.15;
         }
     }
 
@@ -59,7 +59,6 @@
         }
     }
 
-
     &__flex {
         display: flex;
         align-items: center;
@@ -67,7 +66,6 @@
 
         @media screen and (min-width: 1024px) {
             gap: 48px;
-
         }
 
         @media screen and (min-width: 1280px) {
@@ -86,14 +84,13 @@
         letter-spacing: 0.02;
 
         @media screen and (min-width: 1024px) {
-            max-width: 419px;
+            max-width: 439px;
             font-size: 16px;
-            line-height: 1.25;
             margin-bottom: 142px;
         }
 
         @media screen and (min-width: 1280px) {
-            max-width: 432px;
+            max-width: 518px;
             margin-bottom: 162px;
         }
     }
@@ -112,7 +109,6 @@
         @media screen and (min-width: 1024px) {
             max-width: 312px;
             font-size: 16px;
-            line-height: 1.25;
         }
 
     }
@@ -193,14 +189,12 @@
         justify-content: flex-end;
         margin-left: auto;
         gap: 32px;
-
     }
 
     &__svg-arrow {
         display: inline-block;
         fill: $fill-black-icons;
         transition: fill 250ms $timing-function;
-
     }
 
     &__svg-arrow:focus,
